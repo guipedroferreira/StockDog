@@ -1,0 +1,34 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu_nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_nav_item{
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.centralizar {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%; 
+}
