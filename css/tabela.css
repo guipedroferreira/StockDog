@@ -1,0 +1,16 @@
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.th {
+    background-color: grey;
+}

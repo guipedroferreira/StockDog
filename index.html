@@ -2,8 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Tag Aside</title>
+    <title>Trabalho Html</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
 </head>
 <body>
     <header>
@@ -13,15 +14,54 @@
         <ul class="menu_list">
             <li class="menu_nav_item"><a href="index.html">Home</a></li>
             <li class="menu_nav_item"><a href="sobre.html">Sobre</a></li>
-            <li class="menu_nav_item"><a href="services.html">Serviços</a></li>
+            <li class="menu_nav_item"><a href="servicos.html">Serviços</a></li>
             <li class="menu_nav_item"><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
     <main id="main_id">
         <h2>Main Content</h2>
         <p>Espaço reservado para um artigo no conteúdo principal</p>
+        <section>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!-- <input type="radio" name="radio-btn" id="radio4"> -->
+    
+                    <div class="slide first">
+                        <img src="images/1.jpg"
+                            alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/3.jpg" alt="">
+                    </div>
+                    <!-- <div class="slide"><img src="" alt=""></div> -->
+    
+                    <!-- <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div> -->
+                </div>
+    
+                <div class="navigation-bar">
+                    <label class="manual-btn" for="radio1"></label>
+                    <label class="manual-btn" for="radio2"></label>
+                    <label class="manual-btn" for="radio3"></label>
+                    <!-- <label for="radio4">Botão 4</label> -->
+                </div>
+    
+            </div>
+        </section>
+        <hr>
         <section class="section section_space_type_2">
-            <iframe src="slider.html" width="600" height="400"></iframe>
+            <h3>Section 2</h3>
+            <p>Espaço reservado para seção 2</p>
+        </section>
     </main>
     <aside class="menu_aside">
         <h2>Tópicos</h2>
